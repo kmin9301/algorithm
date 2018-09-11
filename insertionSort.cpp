@@ -50,10 +50,10 @@ class LinkedList{
 		/*****
 		Method Name: listInsert(ListNode *spot, ListNode *node)
 		Description: Let the @param node to be set next of @param spot
-		 ex) 1. spot -> spot.next
-			 2. node -> spot.next (= node.next)
-			 3. spot -> node
-			 result : spot -> node -> node.next
+		ex) 1. spot -> spot.next
+		2. node -> spot.next (= node.next)
+		3. spot -> node
+		result : spot -> node -> node.next
 		*****/
 		void listInsert(std::string data){
 			ListNode *spot = listHead;
@@ -88,8 +88,8 @@ class LinkedList{
 		/*****
 		Method Name: printList()
 		Description: Print the linked list on outFile2 with format followed by given instruction
-		 included small modification with brackets
-		 ex) dummy -> ... -> ( current->data : current->next->data ) -> ... ->NULL
+		included small modification with brackets
+		ex) dummy -> ... -> ( current->data : current->next->data ) -> ... ->NULL
 		*****/
 		void printList(){
 			ListNode *spot = listHead;
