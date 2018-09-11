@@ -1,11 +1,10 @@
 /*********************************************
-	Project#01: Insertion Sort
-	Description: Given a file contains a list of English words, your tasks is to
-	 construct a linked list (in ascending order) for the words.
-	Author: Kyeongmin Ha
-	Professor: Dr. Phillips		T.A: Joe Golden
-	Last Modified: 09/01/2017	Due: 09/03/2017
-	*********************************************/
+Project#01: Insertion Sort
+Description: Given a file contains a list of English words, your tasks is to
+construct a linked list (in ascending order) for the words.
+Author: Kyeongmin Ha
+Professor: Dr. Phillips		T.A: Joe Golden
+*********************************************/
 #include <iostream>
 #include <fstream>
 
