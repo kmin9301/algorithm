@@ -133,7 +133,7 @@ int main(int argc, char** argv){
 	while(inFile >> data){
 		outFile1 << "INSERT:"<< data << "\n";
 		ll->listInsert(data);		// insert the node in the corresponding spot
-		ll->printList();			// print the list on the outFile2
+		ll->printList();		// print the list on the outFile2
 	}
 
 	inFile.close();
